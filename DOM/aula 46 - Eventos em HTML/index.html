@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Event Examples</title>
+        <script src="index.js" defer></script>
+        <style>
+            #hoverDiv,
+            #hoverOutDiv,
+            #hoverDivCombo {
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="myButton">Click me</button>
+        <select id="mySelect">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+        <div id="hoverDiv" style="background-color: lightblue">
+            Hover over me
+        </div>
+        <div id="hoverOutDiv" style="background-color: lightblue">
+            Hover out from me
+        </div>
+        <div id="hoverDivCombo" style="background-color: lightblue">
+            Hover over/out me
+        </div>
+    </body>
+</html>
