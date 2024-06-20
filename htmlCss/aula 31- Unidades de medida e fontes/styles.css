@@ -1,0 +1,66 @@
+/* Unidades Absolutas */
+.header {
+    font-size: 24px; /* px */
+    padding: 10pt; /* pt */
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #4CAF50;
+    text-align: center;
+}
+
+/* Unidades Relativas */
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 2%; /* % */
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 1.2em; /* em */
+    color: #333;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5vw; /* vw */
+}
+
+.content-box {
+    width: 100%;
+}
+
+.article, .sidebar {
+    width: 48%;
+    padding: 2vh; /* vh */
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 1rem; /* rem */
+}
+
+/* Propriedades de Fontes */
+.article {
+    font-family: 'Georgia', serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    font-family: 'Times New Roman', Times, serif;
+    color: #666;
+    background-color: #e9ecef;
+}
+
+/* Estilização do rodapé */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
